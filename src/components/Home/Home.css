@@ -1,0 +1,34 @@
+.mainhomeContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    background-color: antiquewhite;
+}
+.b-header-screen{
+    background-color: rgb(39, 88, 88);
+    display: flex;
+    flex-direction: row;
+}
+.left-s{
+background-color: aquamarine;
+flex:3;
+height: 90vh;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+}
+span{
+    font-size: large;
+    color: blueviolet;
+}
+.left-s>span:nth-child(1){
+    margin-top: 100px;
+    color: rgb(38, 0, 255);
+}
+.right-s{
+background-color: rgb(98, 16, 96);
+flex:1;
+}
